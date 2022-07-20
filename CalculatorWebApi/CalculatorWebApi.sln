@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWebApi", "Calcula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLogic", "CalculatorLogic\CalculatorLogic.csproj", "{93C7382A-DAC7-450F-84AE-FBE0DE8205A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTest", "CalculatorTest\CalculatorTest.csproj", "{CAA97480-7F93-4B8B-824C-0051052A2C1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{93C7382A-DAC7-450F-84AE-FBE0DE8205A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93C7382A-DAC7-450F-84AE-FBE0DE8205A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93C7382A-DAC7-450F-84AE-FBE0DE8205A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA97480-7F93-4B8B-824C-0051052A2C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA97480-7F93-4B8B-824C-0051052A2C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA97480-7F93-4B8B-824C-0051052A2C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA97480-7F93-4B8B-824C-0051052A2C1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

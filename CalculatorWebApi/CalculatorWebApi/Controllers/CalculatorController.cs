@@ -13,8 +13,6 @@ namespace CalculatorWebApi.Controllers
 {
 
 
-
-
     [Route("[controller]")]
     [ApiController]
     public class CalculatorController : ControllerBase
@@ -44,15 +42,6 @@ namespace CalculatorWebApi.Controllers
         {
             return Logic.Divide(num1, num2);
         }
-
-
-
-
-        //[HttpGet]
-        //public double Multiply([FromQuery] double num1, [FromQuery] double num2)
-        //{
-        //    return MultiplyLogic.Multiplication(num1, num2);
-        //}
 
 
     }

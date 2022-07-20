@@ -14,5 +14,8 @@
     <ProjectReference Include="..\CalculatorLogic\CalculatorLogic.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\CalculatorTest\CalculatorTest.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
