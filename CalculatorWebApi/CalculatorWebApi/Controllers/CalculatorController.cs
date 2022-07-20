@@ -39,11 +39,11 @@ namespace CalculatorWebApi.Controllers
             return Logic.Multiplication(num1, num2);
         }
 
-        //[HttpGet("Divide")]
-        //public double Divide([FromQuery] double num1, [FromQuery] double num2)
-        //{
-        //    return Logic.Divide(num1, num2);
-        //}
+        [HttpGet("Divide")]
+        public double Divide([FromQuery] double num1, [FromQuery] double num2)
+        {
+            return Logic.Divide(num1, num2);
+        }
 
 
 
