@@ -4,14 +4,14 @@
     "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi.csproj": {}
   },
   "projects": {
-    "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi.csproj": {
+    "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorLogic/CalculatorLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi.csproj",
-        "projectName": "CalculatorWebApi",
-        "projectPath": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi.csproj",
+        "projectUniqueName": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorLogic/CalculatorLogic.csproj",
+        "projectName": "CalculatorLogic",
+        "projectPath": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorLogic/CalculatorLogic.csproj",
         "packagesPath": "/Users/moxitshah/.nuget/packages/",
-        "outputPath": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi/obj/",
+        "outputPath": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorLogic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/moxitshah/.nuget/NuGet/NuGet.Config"
@@ -37,10 +37,69 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi.csproj",
+        "projectName": "CalculatorWebApi",
+        "projectPath": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi.csproj",
+        "packagesPath": "/Users/moxitshah/.nuget/packages/",
+        "outputPath": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/moxitshah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorLogic/CalculatorLogic.csproj": {
+                "projectPath": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorLogic/CalculatorLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [

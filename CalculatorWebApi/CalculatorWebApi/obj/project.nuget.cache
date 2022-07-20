@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "jerG/+F8KgqHF/1p1cYi+/bIcnXEGx+wAWh6pL+E64hrbEQAHdE2PWMaJX/T3hYIoe4Tt0PesUXAZnPA9oDnbA==",
+  "dgSpecHash": "Tf4XmE4Ua5JnNJXAmVL3Op4ESbchy7K+JsLovNUuA91ogtaTgDARUMg10r75bJFA6W5DwDKj9Mbk+tufpgRC5w==",
   "success": true,
   "projectFilePath": "/Users/moxitshah/Documents/GitHub/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi/CalculatorWebApi.csproj",
   "expectedPackageFiles": [
-    "/Users/moxitshah/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/moxitshah/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/moxitshah/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/Users/moxitshah/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "/Users/moxitshah/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "/Users/moxitshah/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "/Users/moxitshah/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "/Users/moxitshah/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/moxitshah/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/moxitshah/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/moxitshah/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
   "logs": []
 }
