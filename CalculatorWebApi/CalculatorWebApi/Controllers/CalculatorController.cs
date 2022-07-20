@@ -11,7 +11,7 @@ using CalculatorLogic;
 namespace CalculatorWebApi.Controllers
 {
 
-   
+
 
     [ApiController]
     [Route("[controller]")]
@@ -21,10 +21,10 @@ namespace CalculatorWebApi.Controllers
         // GET: /<controller>/
         [HttpGet]
         public double Add([FromQuery] double num1, [FromQuery] double num2)
-            {
-                return AddLogic.Addition(num1, num2);
-            }
-     
+        {
+            return AddLogic.Addition(num1, num2);
+        }
+
     }
 }
 
