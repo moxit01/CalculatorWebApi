@@ -400,130 +400,130 @@ public class UnitTest1
 
 
     [TestMethod]
-    public void DivisionUnitTestCheck1()
+    public void DivideUnitTestCheck1()
     {
         double num1 = 8;
         double num2 = 4;
         double desired = 2;
 
-        double actualResult = Class1.Division(num1, num2);
+        double actualResult = Logic.Divide(num1, num2);
 
         Assert.AreEqual(desired, actualResult);
     }
 
     //Test 2
     [TestMethod]
-    public void DivisionUnitTestCheck2()
+    public void DivideUnitTestCheck2()
     {
         double num1 = 12;
         double num2 = 3;
         double desired = 4;
 
-        double actualResult = Class1.Division(num1, num2);
+        double actualResult = Logic.Divide(num1, num2);
 
         Assert.AreEqual(desired, actualResult);
     }
 
     //Test 3
     [TestMethod]
-    public void DivisionUnitTestCheck3()
+    public void DivideUnitTestCheck3()
     {
         double num1 = 16;
         double num2 = 4;
         double desired = 4;
 
-        double actualResult = Class1.Division(num1, num2);
+        double actualResult = Logic.Divide(num1, num2);
 
         Assert.AreEqual(desired, actualResult);
     }
 
     //Test 4
     [TestMethod]
-    public void DivisionUnitTestCheck4()
+    public void DivideUnitTestCheck4()
     {
         double num1 = 22;
         double num2 = 11;
         double desired = 2;
 
-        double actualResult = Class1.Division(num1, num2);
+        double actualResult = Logic.Divide(num1, num2);
 
         Assert.AreEqual(desired, actualResult);
     }
 
     //Test 5
     [TestMethod]
-    public void DivisionUnitTestCheck5()
+    public void DivideUnitTestCheck5()
     {
         double num1 = 45;
         double num2 = 9;
         double desired = 5;
 
-        double actualResult = Class1.Division(num1, num2);
+        double actualResult = Logic.Divide(num1, num2);
 
         Assert.AreEqual(desired, actualResult);
     }
 
     //Test 6
     [TestMethod]
-    public void DivisionUnitTestCheck6()
+    public void DivideUnitTestCheck6()
     {
         double num1 = 77;
         double num2 = 11;
         double desired = 7;
 
-        double actualResult = Class1.Division(num1, num2);
+        double actualResult = Logic.Divide(num1, num2);
 
         Assert.AreEqual(desired, actualResult);
     }
 
     //Test 7
     [TestMethod]
-    public void DivisionUnitTestCheck7()
+    public void DivideUnitTestCheck7()
     {
         double num1 = 56;
         double num2 = 7;
         double desired = 8;
 
-        double actualResult = Class1.Division(num1, num2);
+        double actualResult = Logic.Divide(num1, num2);
 
         Assert.AreEqual(desired, actualResult);
     }
 
     //Test 8
     [TestMethod]
-    public void DivisionUnitTestCheck8()
+    public void DivideUnitTestCheck8()
     {
         double num1 = 63;
         double num2 = 3;
         double desired = 21;
 
-        double actualResult = Class1.Division(num1, num2);
+        double actualResult = Logic.Divide(num1, num2);
 
         Assert.AreEqual(desired, actualResult);
     }
 
     //Test 9
     [TestMethod]
-    public void DivisionUnitTestCheck9()
+    public void DivideUnitTestCheck9()
     {
         double num1 = 75;
         double num2 = 5;
         double desired = 15;
 
-        double actualResult = Class1.Division(num1, num2);
+        double actualResult = Logic.Divide(num1, num2);
 
         Assert.AreEqual(desired, actualResult);
     }
 
     //Test 10
     [TestMethod]
-    public void DivisionUnitTestCheck10()
+    public void DivideUnitTestCheck10()
     {
         double num1 = 99;
         double num2 = 11;
         double desired = 9;
 
-        double actualResult = Class1.Division(num1, num2);
+        double actualResult = Logic.Divide(num1, num2);
 
         Assert.AreEqual(desired, actualResult);
     }
